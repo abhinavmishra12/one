@@ -15,6 +15,10 @@ public class dt3 {
 		System.out.println("yesterday date is :"+ob1);
 		LocalDate ob2=ob1.plusDays(2);
 		System.out.println("tommorow date is :"+ob2);
+		LocalDate ob3=ob2.plusDays(2);
+		System.out.println("day after tommorow date is :"+ob3);
+		
+		
 		
 		/*System.out.println("today's date:"+ob);
 	    System.out.println("yesterday's date"+ob.minusDays(1));
